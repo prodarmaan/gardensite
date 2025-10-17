@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garden: Sound in Evolution</title>
+    <title>Garden: Roster</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
 
     <nav id="navbar">
-        <a href="index.html" class="active">HOME</a>
+        <a href="index.html">HOME</a>
         <a href="discography.html">DISCOGRAPHY</a>
-        <a href="roster.html">ROSTER</a>
+        <a href="roster.html" class="active">ROSTER</a>
     </nav>
+
+    <div id="roster-grid"></div>
 
     <div id="center">
         <img src="/assets/graphics/grdn_logo.png" alt="Garden Logo">
-        <img src="/assets/graphics/center_text.svg" alt="Center Text" id="center-text">
     </div>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="/assets/js/roster.js"></script>
 </body>
 </html>
