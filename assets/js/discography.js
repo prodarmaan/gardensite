@@ -3,7 +3,6 @@ const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZ
 
 const { createClient } = supabase;
 const supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
-console.log('Supabase client:', supabase);
 
 async function loadDiscography() {
     const { data, error } = await supabaseClient
