@@ -28,8 +28,8 @@ document.getElementById('contact-form').addEventListener('submit', async functio
         // Send email via EmailJS
         await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, formData);
         
-        messageDiv.textContent = 'Thank you! Your message has been sent.';
-        messageDiv.style.color = '#1D3621';
+        messageDiv.textContent = 'thank you! your message has been sent.';
+        messageDiv.style.color = '#2C3028';
         
         // Clear form
         this.reset();
