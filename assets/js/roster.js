@@ -24,7 +24,7 @@ async function loadRoster() {
         card.className = 'roster-card';
         
         // default placeholder image
-        const imageUrl = item.image || '/assets/graphics/placeholder.png';
+        const imageUrl = item.image || 'assets/graphics/placeholder.png';
         
         card.innerHTML = `
             <img src="${imageUrl}" alt="${item.name}">

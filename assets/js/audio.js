@@ -10,7 +10,7 @@
         audioElement.volume = 0.5; // Adjust volume (0.0 to 1.0)
         
         // Add your audio file path here
-        audioElement.src = '/assets/misc/ost.wav';
+        audioElement.src = 'assets/misc/ost.wav';
         
         document.body.appendChild(audioElement);
         
